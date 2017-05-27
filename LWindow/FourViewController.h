@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  FourViewController.h
 //  LWindow
 //
 //  Created by HONGYU CHEN on 2017/5/26.
@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SecondViewController : UIViewController
-@property(strong,nonatomic)UIWindow *window;
-
+@interface FourViewController : UIViewController
 
 @end

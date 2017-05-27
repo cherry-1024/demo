@@ -2,8 +2,8 @@
 //  main.m
 //  LWindow
 //
-//  Created by OranWu on 13-1-4.
-//  Copyright (c) 2013年 Oran Wu. All rights reserved.
+//  Created by HONGYU CHEN on 2017/5/26.
+//  Copyright © 2017年  CSDC All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

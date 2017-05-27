@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		4D1A6A741ED6D75100164AC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1A6A731ED6D75100164AC7 /* ViewController.m */; };
 		4DD2A32B1ED6D9920096BCA6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2A32A1ED6D9920096BCA6 /* SecondViewController.m */; };
+		4DE2819A1ED8220F000BFC6F /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE281991ED8220F000BFC6F /* TwoViewController.m */; };
+		4DE2819D1ED82227000BFC6F /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2819C1ED82227000BFC6F /* ThreeViewController.m */; };
+		4DE281A01ED82239000BFC6F /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2819F1ED82239000BFC6F /* FourViewController.m */; };
 		8279E23D16967A5A00061839 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8279E23C16967A5A00061839 /* UIKit.framework */; };
 		8279E23F16967A5A00061839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8279E23E16967A5A00061839 /* Foundation.framework */; };
 		8279E24116967A5A00061839 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8279E24016967A5A00061839 /* CoreGraphics.framework */; };
@@ -22,6 +25,12 @@
 		4D1A6A731ED6D75100164AC7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4DD2A3291ED6D9920096BCA6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		4DD2A32A1ED6D9920096BCA6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4DE281981ED8220F000BFC6F /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		4DE281991ED8220F000BFC6F /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		4DE2819B1ED82227000BFC6F /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		4DE2819C1ED82227000BFC6F /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		4DE2819E1ED82239000BFC6F /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		4DE2819F1ED82239000BFC6F /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 		8279E23816967A5A00061839 /* LWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8279E23C16967A5A00061839 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8279E23E16967A5A00061839 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,6 +94,12 @@
 				4D1A6A731ED6D75100164AC7 /* ViewController.m */,
 				4DD2A3291ED6D9920096BCA6 /* SecondViewController.h */,
 				4DD2A32A1ED6D9920096BCA6 /* SecondViewController.m */,
+				4DE281981ED8220F000BFC6F /* TwoViewController.h */,
+				4DE281991ED8220F000BFC6F /* TwoViewController.m */,
+				4DE2819B1ED82227000BFC6F /* ThreeViewController.h */,
+				4DE2819C1ED82227000BFC6F /* ThreeViewController.m */,
+				4DE2819E1ED82239000BFC6F /* FourViewController.h */,
+				4DE2819F1ED82239000BFC6F /* FourViewController.m */,
 			);
 			path = LWindow;
 			sourceTree = "<group>";
@@ -127,7 +142,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
-				ORGANIZATIONNAME = "Oran Wu";
+				ORGANIZATIONNAME = csdc;
 			};
 			buildConfigurationList = 8279E23216967A5A00061839 /* Build configuration list for PBXProject "LWindow" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -163,7 +178,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DD2A32B1ED6D9920096BCA6 /* SecondViewController.m in Sources */,
+				4DE2819D1ED82227000BFC6F /* ThreeViewController.m in Sources */,
+				4DE281A01ED82239000BFC6F /* FourViewController.m in Sources */,
 				4D1A6A741ED6D75100164AC7 /* ViewController.m in Sources */,
+				4DE2819A1ED8220F000BFC6F /* TwoViewController.m in Sources */,
 				8279E24916967A5A00061839 /* main.m in Sources */,
 				8279E24D16967A5A00061839 /* AppDelegate.m in Sources */,
 			);
@@ -240,6 +258,7 @@
 				GCC_PREFIX_HEADER = "LWindow/LWindow-Prefix.pch";
 				INFOPLIST_FILE = "LWindow/LWindow-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -251,6 +270,7 @@
 				GCC_PREFIX_HEADER = "LWindow/LWindow-Prefix.pch";
 				INFOPLIST_FILE = "LWindow/LWindow-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

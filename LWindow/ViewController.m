@@ -2,8 +2,8 @@
 //  ViewController.m
 //  LWindow
 //
-//  Created by csdc on 2017/5/25.
-//  Copyright © 2017年 Oran Wu. All rights reserved.
+//  Created by HONGYU CHEN on 2017/5/26.
+//  Copyright © 2017年  CSDC All rights reserved.
 //
 #import "ViewController.h"
 #import "SecondViewController.h"
@@ -33,7 +33,12 @@
 }
 - (void)jump:(id)sender
 {
-    [self.navigationController pushViewController:[[SecondViewController alloc] init] animated:true];
+    self.hidesBottomBarWhenPushed=YES;
+    SecondViewController *second=[[SecondViewController alloc]init];
+
+    [self.navigationController pushViewController:second animated:true];
+    self.hidesBottomBarWhenPushed=NO;
+
 }
 
 @end
