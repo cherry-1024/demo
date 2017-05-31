@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SecondViewController.h
 //  LWindow
 //
 //  Created by hongyu chen on 2017/5/26.
@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+@interface CHYHomeDetailViewController : UIViewController
 @property (strong,nonatomic) UIWindow *window;
 
 

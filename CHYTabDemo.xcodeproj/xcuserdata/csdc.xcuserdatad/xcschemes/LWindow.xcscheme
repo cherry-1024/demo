@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8279E23716967A5A00061839"
-               BuildableName = "LWindow.app"
-               BlueprintName = "LWindow"
-               ReferencedContainer = "container:LWindow.xcodeproj">
+               BuildableName = "CHYTabDemo.app"
+               BlueprintName = "CHYTabDemo"
+               ReferencedContainer = "container:CHYTabDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8279E23716967A5A00061839"
-            BuildableName = "LWindow.app"
-            BlueprintName = "LWindow"
-            ReferencedContainer = "container:LWindow.xcodeproj">
+            BuildableName = "CHYTabDemo.app"
+            BlueprintName = "CHYTabDemo"
+            ReferencedContainer = "container:CHYTabDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8279E23716967A5A00061839"
-            BuildableName = "LWindow.app"
-            BlueprintName = "LWindow"
-            ReferencedContainer = "container:LWindow.xcodeproj">
+            BuildableName = "CHYTabDemo.app"
+            BlueprintName = "CHYTabDemo"
+            ReferencedContainer = "container:CHYTabDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8279E23716967A5A00061839"
-            BuildableName = "LWindow.app"
-            BlueprintName = "LWindow"
-            ReferencedContainer = "container:LWindow.xcodeproj">
+            BuildableName = "CHYTabDemo.app"
+            BlueprintName = "CHYTabDemo"
+            ReferencedContainer = "container:CHYTabDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -7,38 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D1A6A741ED6D75100164AC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1A6A731ED6D75100164AC7 /* ViewController.m */; };
-		4DD2A32B1ED6D9920096BCA6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2A32A1ED6D9920096BCA6 /* SecondViewController.m */; };
-		4DE2819A1ED8220F000BFC6F /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE281991ED8220F000BFC6F /* TwoViewController.m */; };
-		4DE2819D1ED82227000BFC6F /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2819C1ED82227000BFC6F /* ThreeViewController.m */; };
-		4DE281A01ED82239000BFC6F /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2819F1ED82239000BFC6F /* FourViewController.m */; };
+		4D1A6A741ED6D75100164AC7 /* CHYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1A6A731ED6D75100164AC7 /* CHYHomeViewController.m */; };
+		4DD2A32B1ED6D9920096BCA6 /* CHYHomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2A32A1ED6D9920096BCA6 /* CHYHomeDetailViewController.m */; };
+		4DE2819A1ED8220F000BFC6F /* CHYConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE281991ED8220F000BFC6F /* CHYConnectViewController.m */; };
+		4DE2819D1ED82227000BFC6F /* CHYFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2819C1ED82227000BFC6F /* CHYFindViewController.m */; };
+		4DE281A01ED82239000BFC6F /* CHYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2819F1ED82239000BFC6F /* CHYMeViewController.m */; };
+		4DF5446E1EDE49B200247477 /* CHYTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5446D1EDE49B200247477 /* CHYTabbarViewController.m */; };
 		8279E23D16967A5A00061839 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8279E23C16967A5A00061839 /* UIKit.framework */; };
 		8279E23F16967A5A00061839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8279E23E16967A5A00061839 /* Foundation.framework */; };
 		8279E24116967A5A00061839 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8279E24016967A5A00061839 /* CoreGraphics.framework */; };
-		8279E24716967A5A00061839 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8279E24516967A5A00061839 /* InfoPlist.strings */; };
 		8279E24916967A5A00061839 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8279E24816967A5A00061839 /* main.m */; };
 		8279E24D16967A5A00061839 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8279E24C16967A5A00061839 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D1A6A721ED6D75100164AC7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4D1A6A731ED6D75100164AC7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4DD2A3291ED6D9920096BCA6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		4DD2A32A1ED6D9920096BCA6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		4DE281981ED8220F000BFC6F /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
-		4DE281991ED8220F000BFC6F /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
-		4DE2819B1ED82227000BFC6F /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
-		4DE2819C1ED82227000BFC6F /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
-		4DE2819E1ED82239000BFC6F /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
-		4DE2819F1ED82239000BFC6F /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
-		8279E23816967A5A00061839 /* LWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1A6A721ED6D75100164AC7 /* CHYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYHomeViewController.h; sourceTree = "<group>"; };
+		4D1A6A731ED6D75100164AC7 /* CHYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHYHomeViewController.m; sourceTree = "<group>"; };
+		4DD2A3291ED6D9920096BCA6 /* CHYHomeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYHomeDetailViewController.h; sourceTree = "<group>"; };
+		4DD2A32A1ED6D9920096BCA6 /* CHYHomeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHYHomeDetailViewController.m; sourceTree = "<group>"; };
+		4DE281981ED8220F000BFC6F /* CHYConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYConnectViewController.h; sourceTree = "<group>"; };
+		4DE281991ED8220F000BFC6F /* CHYConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHYConnectViewController.m; sourceTree = "<group>"; };
+		4DE2819B1ED82227000BFC6F /* CHYFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYFindViewController.h; sourceTree = "<group>"; };
+		4DE2819C1ED82227000BFC6F /* CHYFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHYFindViewController.m; sourceTree = "<group>"; };
+		4DE2819E1ED82239000BFC6F /* CHYMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYMeViewController.h; sourceTree = "<group>"; };
+		4DE2819F1ED82239000BFC6F /* CHYMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHYMeViewController.m; sourceTree = "<group>"; };
+		4DF5446C1EDE49B200247477 /* CHYTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYTabbarViewController.h; sourceTree = "<group>"; };
+		4DF5446D1EDE49B200247477 /* CHYTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHYTabbarViewController.m; sourceTree = "<group>"; };
+		8279E23816967A5A00061839 /* CHYTabDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHYTabDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8279E23C16967A5A00061839 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8279E23E16967A5A00061839 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8279E24016967A5A00061839 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8279E24416967A5A00061839 /* LWindow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LWindow-Info.plist"; sourceTree = "<group>"; };
-		8279E24616967A5A00061839 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8279E24416967A5A00061839 /* CHYTabDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CHYTabDemo-Info.plist"; sourceTree = "<group>"; };
 		8279E24816967A5A00061839 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8279E24A16967A5A00061839 /* LWindow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LWindow-Prefix.pch"; sourceTree = "<group>"; };
 		8279E24B16967A5A00061839 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8279E24C16967A5A00061839 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,7 +60,7 @@
 		8279E22D16967A5A00061839 = {
 			isa = PBXGroup;
 			children = (
-				8279E24216967A5A00061839 /* LWindow */,
+				8279E24216967A5A00061839 /* CHYTabDemo */,
 				8279E23B16967A5A00061839 /* Frameworks */,
 				8279E23916967A5A00061839 /* Products */,
 			);
@@ -69,7 +69,7 @@
 		8279E23916967A5A00061839 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8279E23816967A5A00061839 /* LWindow.app */,
+				8279E23816967A5A00061839 /* CHYTabDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,33 +84,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8279E24216967A5A00061839 /* LWindow */ = {
+		8279E24216967A5A00061839 /* CHYTabDemo */ = {
 			isa = PBXGroup;
 			children = (
 				8279E24B16967A5A00061839 /* AppDelegate.h */,
 				8279E24C16967A5A00061839 /* AppDelegate.m */,
 				8279E24316967A5A00061839 /* Supporting Files */,
-				4D1A6A721ED6D75100164AC7 /* ViewController.h */,
-				4D1A6A731ED6D75100164AC7 /* ViewController.m */,
-				4DD2A3291ED6D9920096BCA6 /* SecondViewController.h */,
-				4DD2A32A1ED6D9920096BCA6 /* SecondViewController.m */,
-				4DE281981ED8220F000BFC6F /* TwoViewController.h */,
-				4DE281991ED8220F000BFC6F /* TwoViewController.m */,
-				4DE2819B1ED82227000BFC6F /* ThreeViewController.h */,
-				4DE2819C1ED82227000BFC6F /* ThreeViewController.m */,
-				4DE2819E1ED82239000BFC6F /* FourViewController.h */,
-				4DE2819F1ED82239000BFC6F /* FourViewController.m */,
+				4D1A6A721ED6D75100164AC7 /* CHYHomeViewController.h */,
+				4D1A6A731ED6D75100164AC7 /* CHYHomeViewController.m */,
+				4DD2A3291ED6D9920096BCA6 /* CHYHomeDetailViewController.h */,
+				4DD2A32A1ED6D9920096BCA6 /* CHYHomeDetailViewController.m */,
+				4DE281981ED8220F000BFC6F /* CHYConnectViewController.h */,
+				4DE281991ED8220F000BFC6F /* CHYConnectViewController.m */,
+				4DE2819B1ED82227000BFC6F /* CHYFindViewController.h */,
+				4DE2819C1ED82227000BFC6F /* CHYFindViewController.m */,
+				4DE2819E1ED82239000BFC6F /* CHYMeViewController.h */,
+				4DE2819F1ED82239000BFC6F /* CHYMeViewController.m */,
+				4DF5446C1EDE49B200247477 /* CHYTabbarViewController.h */,
+				4DF5446D1EDE49B200247477 /* CHYTabbarViewController.m */,
 			);
+			name = CHYTabDemo;
 			path = LWindow;
 			sourceTree = "<group>";
 		};
 		8279E24316967A5A00061839 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8279E24416967A5A00061839 /* LWindow-Info.plist */,
-				8279E24516967A5A00061839 /* InfoPlist.strings */,
+				8279E24416967A5A00061839 /* CHYTabDemo-Info.plist */,
 				8279E24816967A5A00061839 /* main.m */,
-				8279E24A16967A5A00061839 /* LWindow-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,9 +119,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8279E23716967A5A00061839 /* LWindow */ = {
+		8279E23716967A5A00061839 /* CHYTabDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8279E25616967A5A00061839 /* Build configuration list for PBXNativeTarget "LWindow" */;
+			buildConfigurationList = 8279E25616967A5A00061839 /* Build configuration list for PBXNativeTarget "CHYTabDemo" */;
 			buildPhases = (
 				8279E23416967A5A00061839 /* Sources */,
 				8279E23516967A5A00061839 /* Frameworks */,
@@ -130,9 +131,9 @@
 			);
 			dependencies = (
 			);
-			name = LWindow;
+			name = CHYTabDemo;
 			productName = LWindow;
-			productReference = 8279E23816967A5A00061839 /* LWindow.app */;
+			productReference = 8279E23816967A5A00061839 /* CHYTabDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +145,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = csdc;
 			};
-			buildConfigurationList = 8279E23216967A5A00061839 /* Build configuration list for PBXProject "LWindow" */;
+			buildConfigurationList = 8279E23216967A5A00061839 /* Build configuration list for PBXProject "CHYTabDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -156,7 +157,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8279E23716967A5A00061839 /* LWindow */,
+				8279E23716967A5A00061839 /* CHYTabDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -166,7 +167,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8279E24716967A5A00061839 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,28 +177,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DD2A32B1ED6D9920096BCA6 /* SecondViewController.m in Sources */,
-				4DE2819D1ED82227000BFC6F /* ThreeViewController.m in Sources */,
-				4DE281A01ED82239000BFC6F /* FourViewController.m in Sources */,
-				4D1A6A741ED6D75100164AC7 /* ViewController.m in Sources */,
-				4DE2819A1ED8220F000BFC6F /* TwoViewController.m in Sources */,
+				4DD2A32B1ED6D9920096BCA6 /* CHYHomeDetailViewController.m in Sources */,
+				4DE2819D1ED82227000BFC6F /* CHYFindViewController.m in Sources */,
+				4DE281A01ED82239000BFC6F /* CHYMeViewController.m in Sources */,
+				4DF5446E1EDE49B200247477 /* CHYTabbarViewController.m in Sources */,
+				4D1A6A741ED6D75100164AC7 /* CHYHomeViewController.m in Sources */,
+				4DE2819A1ED8220F000BFC6F /* CHYConnectViewController.m in Sources */,
 				8279E24916967A5A00061839 /* main.m in Sources */,
 				8279E24D16967A5A00061839 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8279E24516967A5A00061839 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8279E24616967A5A00061839 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8279E25416967A5A00061839 /* Debug */ = {
@@ -256,7 +246,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LWindow/LWindow-Prefix.pch";
-				INFOPLIST_FILE = "LWindow/LWindow-Info.plist";
+				INFOPLIST_FILE = "LWindow/CHYTabDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -268,7 +258,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LWindow/LWindow-Prefix.pch";
-				INFOPLIST_FILE = "LWindow/LWindow-Info.plist";
+				INFOPLIST_FILE = "LWindow/CHYTabDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -278,7 +268,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8279E23216967A5A00061839 /* Build configuration list for PBXProject "LWindow" */ = {
+		8279E23216967A5A00061839 /* Build configuration list for PBXProject "CHYTabDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8279E25416967A5A00061839 /* Debug */,
@@ -287,7 +277,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8279E25616967A5A00061839 /* Build configuration list for PBXNativeTarget "LWindow" */ = {
+		8279E25616967A5A00061839 /* Build configuration list for PBXNativeTarget "CHYTabDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8279E25716967A5A00061839 /* Debug */,
