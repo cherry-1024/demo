@@ -6,7 +6,7 @@
 //  Copyright © 2017年  CSDC All rights reserved.
 //
 #import "CHYHomeViewController.h"
-#import "CHYHomeDetailViewController.h"
+#import "CHYBookDetailViewController.h"
 
 // 设备的宽高
 #define SCREENWIDTH  [UIScreen mainScreen].bounds.size.width
@@ -17,23 +17,21 @@
 @end
 
 @implementation CHYHomeViewController
-@synthesize tableView;
+
 @synthesize array;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    tableView = [[UITableView alloc]initWithFrame: CGRectMake(0, 0,self.view.bounds.size.width,self.view.bounds.size.height) style : UITableViewStylePlain];
-    tableView.delegate = self;
-    self.tableView.dataSource = self;
-    [self.view addSubview : self.tableView];//把TableView添加到视图上
-    NSMutableArray *arrayValue = [[NSMutableArray alloc] init];
-    arrayValue = [NSMutableArray arrayWithObjects: @"平凡的世界" , @"解忧杂货铺" , @"白夜行" , @"索罗斯传" , @"明朝那些事儿" , @"简爱", @"梦的解析" , @"设计心理学" , @"小王子" , @"目送" , @"雪国" , @"Facebook效应" , @"人间四月天" , @"传奇" , @"一个人的好心情" ,  nil];
-    array = arrayValue;
-    tableView.scrollEnabled = YES;
-    tableView.showsVerticalScrollIndicator = YES;
-
-
+    self.title = @"首页";//导航栏标题
     
+    self.tableView = [[UITableView alloc]initWithFrame: CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) style : UITableViewStylePlain];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    [self.view addSubview:self.tableView];//把TableView添加到视图上
+    
+    array = [[NSArray alloc] initWithObjects:@"平凡的世界" , @"解忧杂货铺" , @"白夜行" , @"索罗斯传" , @"明朝那些事儿" , @"简爱", @"梦的解析" , @"设计心理学" , @"小王子" , @"目送" , @"雪国" , @"Facebook效应" , @"人间四月天" , @"传奇" , @"一个人的好心情" , nil];
+    
+    self.tableView.showsVerticalScrollIndicator = YES;
 }
 
 //显示tableView的章节数
@@ -43,7 +41,7 @@
 }
 
 //这个函数是指定显示多少cells
--(NSInteger)tableView : (UITableView *) tableView numberOfRowsInSection : (NSInteger) section
+-(NSInteger)tableView:(UITableView *) tableView numberOfRowsInSection : (NSInteger) section
 {
     return [array count];//这个是指定加载数据的多少即显示多少个cell
 }
@@ -67,14 +65,17 @@
     
     cell.textLabel.text = [array objectAtIndex : [indexPath row]];  //通过 [indexPath row] 遍历数组
 
-    
+
     return cell;
 }
+
 //跳转方法
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    CHYHomeDetailViewController *detailVC = [[CHYHomeDetailViewController alloc] init];
-    [self.navigationController pushViewController:detailVC animated:NO];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    CHYBookDetailViewController *detailVC = [[CHYBookDetailViewController alloc] init];
+    detailVC.titleStr = [array objectAtIndex:[indexPath row]];
+    [self.navigationController pushViewController:detailVC animated:YES];
 
 
 

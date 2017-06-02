@@ -8,12 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CHYHomeViewController : UIViewController<UITableViewDelegate,UITableViewDataSource> {
+@interface CHYHomeViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
     
-    UITableView *tableView;
     NSArray *array;
+    
 }
-
 
 @property (strong, nonatomic) UITableView *tableView;
 @property (strong, nonatomic) NSArray *array;

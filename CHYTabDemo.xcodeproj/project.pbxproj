@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D052C5B1EE0F84700E0601E /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D052C5A1EE0F84700E0601E /* images.xcassets */; };
 		4D1A6A741ED6D75100164AC7 /* CHYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1A6A731ED6D75100164AC7 /* CHYHomeViewController.m */; };
-		4DD2A32B1ED6D9920096BCA6 /* CHYHomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2A32A1ED6D9920096BCA6 /* CHYHomeDetailViewController.m */; };
+		4DD2A32B1ED6D9920096BCA6 /* CHYBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2A32A1ED6D9920096BCA6 /* CHYBookDetailViewController.m */; };
 		4DE2819A1ED8220F000BFC6F /* CHYConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE281991ED8220F000BFC6F /* CHYConnectViewController.m */; };
 		4DE2819D1ED82227000BFC6F /* CHYFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2819C1ED82227000BFC6F /* CHYFindViewController.m */; };
 		4DE281A01ED82239000BFC6F /* CHYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2819F1ED82239000BFC6F /* CHYMeViewController.m */; };
@@ -21,10 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D052C5A1EE0F84700E0601E /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		4D1A6A721ED6D75100164AC7 /* CHYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYHomeViewController.h; sourceTree = "<group>"; };
 		4D1A6A731ED6D75100164AC7 /* CHYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHYHomeViewController.m; sourceTree = "<group>"; };
-		4DD2A3291ED6D9920096BCA6 /* CHYHomeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYHomeDetailViewController.h; sourceTree = "<group>"; };
-		4DD2A32A1ED6D9920096BCA6 /* CHYHomeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHYHomeDetailViewController.m; sourceTree = "<group>"; };
+		4DD2A3291ED6D9920096BCA6 /* CHYBookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYBookDetailViewController.h; sourceTree = "<group>"; };
+		4DD2A32A1ED6D9920096BCA6 /* CHYBookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHYBookDetailViewController.m; sourceTree = "<group>"; };
 		4DE281981ED8220F000BFC6F /* CHYConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYConnectViewController.h; sourceTree = "<group>"; };
 		4DE281991ED8220F000BFC6F /* CHYConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHYConnectViewController.m; sourceTree = "<group>"; };
 		4DE2819B1ED82227000BFC6F /* CHYFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYFindViewController.h; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		8279E22D16967A5A00061839 = {
 			isa = PBXGroup;
 			children = (
+				4D052C5A1EE0F84700E0601E /* images.xcassets */,
 				8279E24216967A5A00061839 /* CHYTabDemo */,
 				8279E23B16967A5A00061839 /* Frameworks */,
 				8279E23916967A5A00061839 /* Products */,
@@ -92,8 +95,8 @@
 				8279E24316967A5A00061839 /* Supporting Files */,
 				4D1A6A721ED6D75100164AC7 /* CHYHomeViewController.h */,
 				4D1A6A731ED6D75100164AC7 /* CHYHomeViewController.m */,
-				4DD2A3291ED6D9920096BCA6 /* CHYHomeDetailViewController.h */,
-				4DD2A32A1ED6D9920096BCA6 /* CHYHomeDetailViewController.m */,
+				4DD2A3291ED6D9920096BCA6 /* CHYBookDetailViewController.h */,
+				4DD2A32A1ED6D9920096BCA6 /* CHYBookDetailViewController.m */,
 				4DE281981ED8220F000BFC6F /* CHYConnectViewController.h */,
 				4DE281991ED8220F000BFC6F /* CHYConnectViewController.m */,
 				4DE2819B1ED82227000BFC6F /* CHYFindViewController.h */,
@@ -167,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D052C5B1EE0F84700E0601E /* images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DD2A32B1ED6D9920096BCA6 /* CHYHomeDetailViewController.m in Sources */,
+				4DD2A32B1ED6D9920096BCA6 /* CHYBookDetailViewController.m in Sources */,
 				4DE2819D1ED82227000BFC6F /* CHYFindViewController.m in Sources */,
 				4DE281A01ED82239000BFC6F /* CHYMeViewController.m in Sources */,
 				4DF5446E1EDE49B200247477 /* CHYTabbarViewController.m in Sources */,

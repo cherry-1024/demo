@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CHYHomeDetailViewController : UIViewController
-@property (strong,nonatomic) UIWindow *window;
+@interface CHYBookDetailViewController : UIViewController
 
+@property (nonatomic, copy) NSString *titleStr;
 
 @end
