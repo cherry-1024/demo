@@ -62,10 +62,10 @@
         
         cell = [[UITableViewCell alloc] initWithStyle : UITableViewCellStyleDefault reuseIdentifier: CellIdentifier];
     }
-    
+    cell.selectionStyle = UITableViewCellEditingStyleNone;
+    cell.imageView.image = [UIImage imageNamed:@"the ordinary world"];
     cell.textLabel.text = [array objectAtIndex : [indexPath row]];  //通过 [indexPath row] 遍历数组
-
-
+    cell.detailTextLabel.text = @"作者：路遥";
     return cell;
 }
 
