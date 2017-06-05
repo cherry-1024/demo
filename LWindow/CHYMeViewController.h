@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CHYMeViewController : UIViewController
+@interface CHYMeViewController : UIViewController <UITableViewDelegate , UITableViewDataSource>{
+    UITableView *personalTableView;
+    NSArray *dataSource;
+}
 
 @end

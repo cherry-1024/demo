@@ -42,7 +42,7 @@
     meVC.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemContacts tag:4];//设置系统自带的标签栏风格
     UINavigationController *meNav = [[UINavigationController alloc] initWithRootViewController:meVC];//我的导航框架
     
-    //给标签栏添加对应的模块
+    //将导航栏控制器添加到TabBar当中
     [self addChildViewController:homeNav];
     [self addChildViewController:connectNav];
     [self addChildViewController:findNav];

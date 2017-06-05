@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CHYFindViewController : UIViewController
+@interface CHYFindViewController : UIViewController{
+    
+    NSMutableArray *showData;
+}
+
+@property(nonatomic) BOOL showsBookmarkButton;
+
 
 @end
